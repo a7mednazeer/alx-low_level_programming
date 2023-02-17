@@ -1,6 +1,6 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  * main - main function to run code
@@ -10,14 +10,16 @@
  */
 int main(void)
 {
-	char letter;
+	char c = 'z';
 
-        for (letter = 'z'; letter >= 'a'; letter--)
+	while (c >= 'a')
 	{
-            printf("%c", letter);
-        }
+	    putchar(c);
+	    c--;
+	}
 
-        printf("\n");
+	putchar('\n');
 
 	return (0);
 }
+

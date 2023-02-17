@@ -10,15 +10,14 @@
  */
 int main(void)
 {
-	char c = 'z';
+	char letter;
 
-	while (c >= 'a')
+        for (letter = 'z'; letter >= 'a'; letter--)
 	{
-		putchar(c);
-		c--;
-	}
+            printf("%c", letter);
+        }
 
-	putchar('\n');
+        printf("\n");
 
 	return (0);
 }

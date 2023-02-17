@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlib.h>
 /**
  * main - main function to run code
  * Description: prints the lowercase alphabet in reverse, followed by a new line.

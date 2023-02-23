@@ -17,3 +17,4 @@ void print_numbers(void)
 	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 }
+

@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _atio - Convert a string to an integer
+ * _atoi - Convert a string to an integer.
  * @s: The pointer to convert
- * Return : A integer
-*/
+ *
+ * Return: A integer
+ */
 int _atoi(char *s)
 {
 	int c = 0;
@@ -18,18 +19,22 @@ int _atoi(char *s)
 		{
 			min *= -1;
 		}
+
 		while (s[c] >= 48 && s[c] <= 57)
 		{
 			isi = 1;
 			ni = (ni * 10) + (s[c] - '0');
 			c++;
 		}
+
 		if (isi == 1)
 		{
 			break;
 		}
+
 		c++;
 	}
+
 	ni *= min;
 	return (ni);
 }

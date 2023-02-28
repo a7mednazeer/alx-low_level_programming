@@ -3,9 +3,10 @@
 /**
  * _strcpy - Copy a string
  * @dest: Destination value
- * @src: Score value
+ * @src: Source value
  * Return : the pointer to dest
 */
+
 char *_strcpy(char *dest, char *src)
 {
 	int i;
